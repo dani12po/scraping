@@ -1,0 +1,7 @@
+node_modules/
+.env
+pk.txt
+akun
+dump/
+profiles/
+*.log

@@ -1,0 +1,21 @@
+{
+  "name": "web-game-scraper",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Generic scraper untuk web/game berbasis Colyseus + Solana SIWS auth",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "bs58": "6.0.0",
+    "colyseus.js": "0.16.4",
+    "puppeteer-core": "^25.1.0",
+    "tweetnacl": "1.0.3",
+    "ws": "8.18.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
